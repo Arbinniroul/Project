@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        /* Language and Environment */
+        "target": "ES2020",
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+
+
+        "rootDir": "./src",
+        "outDir": "./public", 
+        
+
+        "strict": true,
+        "skipLibCheck": true,
+
+
+        "sourceMap": true, 
+        "declaration": true  
+    },
+    "include": ["src/**/*", "src/express.d.ts"],
+    "exclude": ["node_modules"]
+}
